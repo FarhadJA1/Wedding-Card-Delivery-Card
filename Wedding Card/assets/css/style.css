@@ -1,0 +1,39 @@
+@font-face{
+    font-family: header-font;
+    src: url(../fonts/Comforter-Regular.ttf);
+
+}
+@font-face{
+    font-family: paragraph-font;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+@font-face{
+    font-family: end-font;
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+.card{
+    
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    padding-left: 20px;
+    margin-left: 400px ;
+    margin-top: 100px;
+    box-shadow: 2px 2px 2px 2px  rgb(180, 180, 180);
+    
+}
+.card h1{
+    font-family: header-font;
+    font-weight: lighter;
+    font-size: 100px;
+
+}
+.card .paragraph{
+    font-family: paragraph-font;
+    text-align: center;
+}
+.card .paragraph .end{
+    font-family: end-font;
+    font-size: larger;
+}
+   
